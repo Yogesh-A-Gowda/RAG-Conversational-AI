@@ -1,1 +1,2 @@
 
+Place all files to be indexed into ChromaDB here. These documents will serve as the knowledge base for the RAG pipeline.
