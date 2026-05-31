@@ -1,0 +1,23 @@
+# Environment variables (contains API keys)
+.env
+.claude
+# Vector database
+db/
+LectureBank/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

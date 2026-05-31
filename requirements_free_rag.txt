@@ -1,0 +1,28 @@
+## Free RAG Project — Package Requirements
+
+This file lists the minimal packages needed for the free RAG pipeline scripts
+(`free_rag_ingestion.py` and `free_rag_qa.py`).
+
+Install with:
+    pip install -r requirements_free_rag.txt
+
+# ── Core LangChain framework ──────────────────────────────────────────────────
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+
+# ── Free local embeddings (HuggingFace, runs on your CPU, no API key needed) ──
+langchain-huggingface
+sentence-transformers
+
+# ── Free LLM: Google Gemini 1.5 Flash (free tier at aistudio.google.com) ──────
+langchain-google-genai
+google-generativeai
+
+# ── Local vector database (runs on your machine, no server needed) ────────────
+langchain-chroma
+chromadb
+
+# ── Utilities ──────────────────────────────────────────────────────────────────
+python-dotenv
